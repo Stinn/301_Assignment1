@@ -2,6 +2,10 @@
 
 //1366461
 //============================Main===============================
+//======================================================================================
+//This is the main activity, contains the list view of the claims
+//in addtion, all the position of chosen claim is called "claimID"
+//all the position of chosen item is called "itemID"
 package com.example.traveltracker;
 
 import java.io.FileInputStream;
