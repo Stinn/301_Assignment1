@@ -1,5 +1,7 @@
 //Liangrui Lu
 //1366461
+//======================================================================================
+//This function display the list of items(expenses)
 package com.example.traveltracker;
 
 import java.io.FileInputStream;
