@@ -1,7 +1,7 @@
 //Liangrui Lu
 //1366461
 //======================================================================================
-//This class is used to edit the item
+//This class is used to edit the claim
 package com.example.traveltracker;
 
 import java.io.FileInputStream;
