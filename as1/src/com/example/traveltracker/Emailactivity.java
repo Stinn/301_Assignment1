@@ -1,5 +1,7 @@
 //Liangrui Lu
 //1366461
+//======================================================================================
+//This class is used to email the claim
 package com.example.traveltracker;
 
 import java.io.FileInputStream;
