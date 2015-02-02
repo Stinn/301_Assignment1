@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <EditText
+        android:id="@+id/itemdescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/itemadd"
+        android:layout_alignLeft="@+id/description"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/itemdescription"
+        android:layout_alignLeft="@+id/unit"
+        android:text="Description"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/itemunit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/description"
+        android:layout_alignLeft="@+id/description"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/unit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/itemunit"
+        android:layout_alignLeft="@+id/itemamount"
+        android:text="Unit"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/itemamount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/unit"
+        android:layout_alignLeft="@+id/amount"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/itemamount"
+        android:layout_alignLeft="@+id/category"
+        android:text="Amount"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/itemcategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/amount"
+        android:layout_alignLeft="@+id/amount"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/itemcategory"
+        android:layout_alignLeft="@+id/itemdate"
+        android:text="Category"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/itemdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/category"
+        android:layout_alignLeft="@+id/date"
+        android:ems="10"
+        android:inputType="date" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/itemdate"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="29dp"
+        android:text="Date"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/itemname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/date"
+        android:layout_alignLeft="@+id/date"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/Itemname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/itemname"
+        android:layout_alignLeft="@+id/itemname"
+        android:text="Item"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/itemcancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/itemdescription"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/description"
+        android:text="Cancel" />
+
+    <Button
+        android:id="@+id/itemadd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="17dp"
+        android:text="      Add      " />
+
+</RelativeLayout>
