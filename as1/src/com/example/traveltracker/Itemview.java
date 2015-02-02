@@ -1,5 +1,7 @@
 //Liangrui Lu
 //1366461
+//======================================================================================
+//This class shows the view of a certain item(expense)
 package com.example.traveltracker;
 
 import java.io.FileInputStream;
