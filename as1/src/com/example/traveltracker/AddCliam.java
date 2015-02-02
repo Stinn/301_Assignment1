@@ -1,5 +1,7 @@
 //Liangrui Lu
 //1366461
+//======================================================================================
+//This class is used to add a single claim
 
 package com.example.traveltracker;
 
